@@ -1,0 +1,7 @@
+project: aya
+target: bpf_load
+
+tests:
+  - file://test/cases
+cmds:
+  - cmd: /bpf_load
